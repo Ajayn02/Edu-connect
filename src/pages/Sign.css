@@ -1,0 +1,36 @@
+
+.fdiv{
+    width: 50%;
+    padding: 30px;
+    
+}
+.hdiv{
+    min-height: 90vh;
+}
+
+@media (max-width:900px) {
+    .fdiv{
+        width: 60%;
+    }
+}
+
+@media (max-width:750px) {
+    .fdiv{
+        width: 70%;
+    }
+}
+@media (max-width:650px) {
+    .fdiv{
+        width: 80%;
+        padding: 15px;
+    }
+    /* .hdiv{
+        height: 120vh;
+    } */
+    
+}
+@media (max-width:550px) {
+    .fdiv{
+        width: 90%;
+    }
+}

@@ -1,0 +1,9 @@
+.s1c{
+    padding: 40px;
+}
+
+@media (max-width:500px) {
+    .s1c{
+        padding: 20px;
+    }
+}
