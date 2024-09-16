@@ -38,7 +38,7 @@ function CategoryList() {
 
     return (
         <>
-            <div className='border rounded shadow border-3 p-5 container my-5  main-t '>
+            <div className='border rounded shadow border-3 p-5 container my-5  main-t ' style={{minHeight:"80vh"}}>
 
                 <div className='d-flex justify-content-between'>
                     <h3 className='text-info'>Category : {catName}</h3>
