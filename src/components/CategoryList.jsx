@@ -46,7 +46,7 @@ function CategoryList() {
                 </div>
                 {
                     catlistData.length>0 ?
-                    <Table responsive className='my-4 table-borderd text-center table  table-hover text-center'>
+                    <Table responsive className='my-4 table-borderd text-center table  table-hover text-center '>
                     <thead>
                         <tr >
                             <th>Id</th>

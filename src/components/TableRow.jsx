@@ -76,7 +76,7 @@ function TableRow({ dep }) {
             {
                 sdata.length > 0 ?
 
-                    <Table responsive className='my-4 table-borderd text-center table  table-hover'>
+                    <Table responsive className='my-4 table-borderd   text-center table  table-hover ' >
                         <thead>
                             <tr >
                                 <th>Id</th>
@@ -97,7 +97,7 @@ function TableRow({ dep }) {
                                         <td>{item.age}</td>
                                         <td>{item.mobile}</td>
                                         <td>{item.cource}</td>
-                                        <td onClick={() => { handleShow(item) }}  ><i className="fa-solid fa-pen-to-square fa-xl" style={{ color: "#0d0c0c", cursor: "pointer" }} /></td>
+                                        <td onClick={() => { handleShow(item) }}  ><i className="fa-solid fa-pen-to-square fa-xl" style={{ color: "#38c8e5", cursor: "pointer" }} /></td>
                                         <td onClick={() => { deleteData(item.id) }}><i className="fa-solid fa-trash-can fa-xl" style={{ color: "#f40b0b", cursor: "pointer" }} /></td>
                                     </tr>
                                 ))

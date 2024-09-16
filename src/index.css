@@ -5,3 +5,15 @@
   box-sizing: border-box;
   font-family: "Kanit", system-ui;
 }
+
+
+
+.light-mode{
+  background-color: white;
+  color: black;
+}
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}

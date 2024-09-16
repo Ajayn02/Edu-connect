@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <>
-      <div className=' container-fluid bg-light py-3 px-5'>
+      <div className=' container-fluid  py-3 px-5 shadow ' >
         <Row>
           <Col sm={12} md={5}>
             <h3 className='mt-2'>EduConnect  2024</h3>

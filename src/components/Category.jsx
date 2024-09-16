@@ -93,7 +93,7 @@ function Category() {
 
     return (
         <>
-            <div className='container-fluid border shadow rounded my-5 p-3 '>
+            <div className='container-fluid   rounded my-5 p-3 '>
                
                     <h2 className='mb-3 '>Categories</h2>
                     <button className='btn btn-success ' onClick={handleShow}>Add +</button>
@@ -102,7 +102,7 @@ function Category() {
                     {
                         cdata.length > 0 ?
                             cdata.map(item => (
-                                <Card key={item.id} style={{ width: '13rem',margin:'20px 20px',cursor:"pointer" }} onDragOver={(e)=>(dragOverHandler(e))}  onDrop={(e)=>{dropHandler(e,item)}} className='shadow'>
+                                <Card key={item.id} style={{ width: '13rem',margin:'20px 20px',cursor:"pointer" }} onDragOver={(e)=>(dragOverHandler(e))}  onDrop={(e)=>{dropHandler(e,item)}} className='shadow light-mode border '>
                                     <Card.Body className='text-center mt-3'>
                                         <Card.Title className='text-center mb-4'>{item.name}</Card.Title>
                                         <button className='btn btn-outline-success me-3' onClick={()=>{handleCatList(item.id)}}>View</button>
@@ -121,7 +121,7 @@ function Category() {
             </div>
 
 
-            <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} >
+            <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} style={{color:"black"}}>
                 <Modal.Header closeButton>
                     <Modal.Title>Category</Modal.Title>
                 </Modal.Header>

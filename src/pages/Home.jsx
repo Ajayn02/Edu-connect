@@ -69,7 +69,7 @@ function Home() {
             <div className='container-fluid' style={{ minHeight: "90vh" }}>
                 <Row>
                     <Col lg={9} md={8} sm={12}>
-                        <div className='border shadow  container-fluid rounded my-5 main-t'>
+                        <div className=' shadow  container-fluid rounded my-5 main-t'>
                             <div className='d-flex justify-content-between mb-5'>
                                 <h3 className='ms-3'>Welcom {user}</h3>
                                 <button className='btn btn-danger me-3 ' onClick={handleLogout}>Logout</button>
@@ -92,7 +92,7 @@ function Home() {
 
 
 
-            <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false}>
+            <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} style={{color:"black"}}>
                 <Modal.Header closeButton>
                     <Modal.Title>Add Student</Modal.Title>
                 </Modal.Header>

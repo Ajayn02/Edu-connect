@@ -35,13 +35,13 @@ function Login() {
     
   return (
     <>
-      <div className='container-fluid d-flex justify-content-center align-items-center hdiv'>
-        <div className='fdiv shadow  text-center' style={{ border: "1px solid black", borderRadius: "30px" }}>
+      <div className='container-fluid d-flex justify-content-center align-items-center hdiv '>
+        <div className='fdiv shadow  text-center' style={{ border: "1px solid white", borderRadius: "30px" }}>
           <h3 className='text-center mb-3'>Login</h3>
-          <FloatingLabel controlId="email" label="Email ID">
-            <Form.Control type="email" placeholder="Password" className='mb-3' onChange={(e)=>{setLogin({...login,email:e.target.value})}} />
+          <FloatingLabel controlId="email" label="Email ID"  style={{color:"black"}}>
+            <Form.Control type="email" placeholder="Password" className='mb-3' onChange={(e)=>{setLogin({...login,email:e.target.value})}}  />
           </FloatingLabel>
-          <FloatingLabel controlId="pass" label="Password">
+          <FloatingLabel controlId="pass" label="Password"  style={{color:"black"}}>
             <Form.Control type="password" placeholder="Password" className='mb-3'  onChange={(e)=>{setLogin({...login,password:e.target.value})}} />
           </FloatingLabel>
 

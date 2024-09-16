@@ -42,15 +42,15 @@ const handleUser=async()=>{
   return (
     <>
       <div className='container-fluid d-flex justify-content-center align-items-center hdiv' >
-                <div className='fdiv shadow  text-center' style={{border:"1px solid black",borderRadius:"30px"}}>
+                <div className='fdiv shadow  text-center' style={{border:"1px solid white",borderRadius:"30px"}}>
                     <h3 className='text-center mb-3'>Signup</h3>
-                    <FloatingLabel controlId="username" label="Username">
+                    <FloatingLabel controlId="username" label="Username" style={{color:"black"}}>
                         <Form.Control type="text" placeholder="Password" className='mb-3' onChange={(e)=>{setUser({...user,username:e.target.value})}} />
                     </FloatingLabel>
-                    <FloatingLabel controlId="email" label="Email ID">
+                    <FloatingLabel controlId="email" label="Email ID" style={{color:"black"}}>
                         <Form.Control type="email" placeholder="Password" className='mb-3' onChange={(e)=>{setUser({...user,email:e.target.value})}} />
                     </FloatingLabel>
-                    <FloatingLabel controlId="password" label="Password">
+                    <FloatingLabel controlId="password" label="Password" style={{color:"black"}}>
                         <Form.Control type="password" placeholder="Password" className='mb-3' onChange={(e)=>{setUser({...user,password:e.target.value})}}  />
                     </FloatingLabel>
 
